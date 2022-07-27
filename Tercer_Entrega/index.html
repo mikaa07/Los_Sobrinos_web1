@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LosSobrinosdeRosa</title>
+    <link rel="stylesheet" type="text/css" href="../Tercer_Entrega/css/estilo.css">
+</head>
+
+<body class="home">
+
+<div class="logo">
+    <h1>Bienvenido a los sobrinos de Rosa</h1>
+    <div class="btn_menu">
+        <a>MENÚ</a>
+    </div>
+</div>
+
+ <div class="menu">
+   <ul class="navigation">
+        <li class="nav-item">
+            <a class="nav-link active" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./html/nuestrosproductos.html">Nuestros Productos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./html/nosotros.html">Nosotros</a>
+        </li>
+        
+    </ul>
+ </div>
+
+ <div class="home2">
+
+    <section class="Variedadesyprecios">
+        <div class="intro">
+        <h1>Las mejores pizzas y empanadas de Tandil</h1>
+        </div>
+        
+        
+        <table>
+            <thead>
+            <tr>
+              <th>Pizza </th>
+              <th>Precio Pizza</th>
+              <th>Empanada</th>
+              <th>Precio Empanada</th>
+            </tr>
+            <tr>
+              <td><input id=variedadpizza type="text"></td>
+              <td><input id=preciopizza type="text"></td>
+              <td><input id=variedadempanada type="text"></td>
+              <td><input id=precioempanada type="text"></td>
+            </tr>
+            </thead>
+            <tbody id="tabla">
+
+            </tbody>
+              
+          </table>
+        
+     <form class="precioyvariedad"action="">
+        <div class="botones">
+            <button id="agregar1" class="agregar1">agregar1</button>
+            <button id="agregar3" class="agregar3">agregarx3</button>
+            
+        </div>
+        <select name="elegir" id='elegirfiltro'>
+            <option value="value1"selected>Filtrar por</option> 
+            <option value="value2" >variedadpizza</option>
+            <option value="value3">variedadempanada</option>
+        </select>
+          <input type="text" id='filtrotexto'/>
+          <button id='filtrar'>Filtrar</button>
+        </div>
+    </form>
+
+    </section>
+   
+</div>
+
+
+
+<script src="./js/agregar.js"></script>            
+</body>
+</html>

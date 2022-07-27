@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LosSobrinosdeRosa</title>
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+</head>
+
+<body class="home">
+    <div class="logo">
+        <h1>Bienvenidos a los sobrinos de Rosa</h1>
+    <div class="btn_menu">
+        <a>MENÚ</a>
+    </div>
+    </div>
+    
+    <div class="menu">
+        <ul class="navigation">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./nuestrosproductos.html">Nuestros Productos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="./nosotros.html">Nosotros</a>
+            </li>
+            
+        </ul>
+    </div>
+
+    <section class="rosa">
+        <div class="hist">
+        <h1>Nuestra historia</h1>
+            <p>Somos una empresa familiar dedicada a la elaboracion y venta de pizzas y empanadas. 
+            Contamos con nuestro propio local y con una amplia trayectoria de mas de 15 años en el rubro.
+            La fundadora y cabeza de este emprendimiento es nuestra tia "Rosa" de aqui nuestro nombre 
+            "los sobrinos de Rosa". </p>
+        </div>
+        
+        <div class="cocinaA">
+            <h2>"Maria Edith Lopez"</h2>
+            <h3>Cocinera</h3>
+            <img src="../imagen/cocinera.jpg" width="100%" 
+            alt="imagen de la cocinera"/>
+        </div>
+        
+        
+        <div class="cocinaB">
+            <h2>"Jorge Lopez"</h2>
+            <h3>Cocinero</h3>
+            <img src="../imagen/cocinero.jpg" width="100%" 
+            alt="imagen del cocinero"/>
+        </div>
+        
+        
+        <div class="formulario">
+        
+            <section class="eleccion">
+            <h4>DEJANOS TU OPINION</h4>
+            <form>
+                <p>Nombre Completo: 
+                    <input type="text" name="nombre" size="40"> </input> 
+                </p>
+                <p>Fecha de nacimiento: 
+                    <input type="number" name="dia" min="1" max="31"> </input>
+                    <input type="number" name="mes" min="1" max="12"> </input>
+                    <input type="number" name="ano" min="1960" max="2000"> </input> 
+                </p>
+                <p>Sexo:
+                    <input type="radio" name="sexo" value="h"> Hombre</input>
+                    <input type="radio" name="sexo" value="m"> Mujer</input>
+                </p>
+                <p>
+                <p>¿Cual de nuestras variedades de empanadas te gusto mas?</p>
+                    <input type="radio" name="tipo" value="SI">Carne</input>
+                    <input type="radio" name="tipo" value="SI">Jamon y Queso</input>
+                    <input type="radio" name="tipo" value="SI">Pollo</input>
+                    <input type="radio" name="tipo" value="SI">Queso y Cebolla</input>
+                    <input type="radio" name="tipo" value="SI">Caprese</input>
+                    <input type="radio" name="tipo" value="SI">Roquefort</input>
+                    <input type="radio" name="tipo" value="SI">Humita</input>
+                    <input type="radio" name="tipo" value="SI">Verdura</input>
+                </p>
+        
+                <p>
+                    <input type="text" id="captchaGenerado" disabled>
+                    <input type="number" id="captchaUsuario" placeholder="Ingrese su captcha">
+                    <input type="Submit" id="comparar" value="Enviar" />
+                </p>
+        
+            </form>
+        </section>
+        </div>
+    </section>
+
+    
+
+<script src="../js/validar.js"></script>
+<script src="../js/agregar.js"></script> 
+</body>
+</html>
